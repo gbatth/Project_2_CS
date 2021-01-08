@@ -28,11 +28,11 @@ Highcharts.chart('container', {
     colorAxis: {
         dataClasses: [{
             from: 0,
-            to: 100,
+            to: 0,
             color: '#ff6666',
             name: '< 100'
         }, {
-            from: 100,
+            from: 1,
             to: 1000,
             color: '#ffb3b3',
             name: '10-1000'
