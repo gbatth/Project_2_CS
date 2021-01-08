@@ -10,7 +10,7 @@ Highcharts.chart('container', {
     },
 
     title: {
-        text: 'U.S. Consumer Spending 2019'
+        text: 'Market Capital by State'
     },
 
     subtitle: {
@@ -28,33 +28,33 @@ Highcharts.chart('container', {
     colorAxis: {
         dataClasses: [{
             from: 0,
-            to: 50000,
+            to: 100,
             color: '#ff6666',
-            name: '< 50k'
+            name: '< 100'
         }, {
-            from: 50000,
-            to: 250000,
+            from: 100,
+            to: 1000,
             color: '#ffb3b3',
-            name: '50k-250k'
+            name: '10-1000'
         }, {
-            from: 250000,
-            to: 500000,
+            from: 1000,
+            to: 5000,
             color: '#b3e6cc',
-            name: '250k-500k'
+            name: '1000-5000'
         }, {
-            from: 500000,
-            to: 1000000,
+            from: 5000,
+            to: 10000,
             color: '#79d2a6',
-            name: '500k-1mil'
+            name: '5000-10000'
         }, {
-            from: 1000000,
-            to: 1500000,
+            from: 10000,
+            to: 20000,
             color: '#53c68c',
-            name: '1mil-1.5mil'
+            name: '10000-20000'
         }, {
-            from: 1500000,
+            from: 20000,
             color: '#39ac73',
-            name: '> 1.5mil'
+            name: '20000'
         }]
     },
 
@@ -84,105 +84,105 @@ Highcharts.chart('container', {
             region: 'South',
             x: 6,
             y: 7,
-            value: 174016
+            value: 163.06
         }, {
             'hc-a2': 'AK',
             name: 'Alaska',
             region: 'West',
             x: 0,
             y: 0,
-            value: 37090
+            value: 0
         }, {
             'hc-a2': 'AZ',
             name: 'Arizona',
             region: 'West',
             x: 5,
             y: 3,
-            value: 276910
+            value: 1755.02
         }, {
             'hc-a2': 'AR',
             name: 'Arkansas',
             region: 'South',
             x: 5,
             y: 6,
-            value: 105702
+            value: 431.43
         }, {
             'hc-a2': 'CA',
             name: 'California',
             region: 'West',
             x: 5,
             y: 2,
-            value: 1947590
+            value: 32715.36
         }, {
             'hc-a2': 'CO',
             name: 'Colorado',
             region: 'West',
             x: 4,
             y: 3,
-            value: 266988
+            value: 627.13
         }, {
             'hc-a2': 'CT',
             name: 'Connecticut',
             region: 'Northeast',
             x: 3,
             y: 11,
-            value: 195327
+            value: 1680.54
         }, {
             'hc-a2': 'DE',
             name: 'Delaware',
             region: 'South',
             x: 4,
             y: 9,
-            value: 44625
+            value: 244.28
         }, {
             'hc-a2': 'DC',
             name: 'District of Columbia',
             region: 'South',
             x: 4,
             y: 10,
-            value: 46122
+            value: 354.57
         }, {
             'hc-a2': 'FL',
             name: 'Florida',
             region: 'South',
             x: 8,
             y: 8,
-            value: 923921
+            value: 1723.16
         }, {
             'hc-a2': 'GA',
             name: 'Georgia',
             region: 'South',
             x: 7,
             y: 8,
-            value: 404264
+            value: 4001.68
         }, {
             'hc-a2': 'HI',
             name: 'Hawaii',
             region: 'West',
             x: 8,
             y: 0,
-            value: 69993
+            value: 0
         }, {
             'hc-a2': 'ID',
             name: 'Idaho',
             region: 'West',
             x: 3,
             y: 2,
-            value: 66448
+            value: 299.15
         }, {
             'hc-a2': 'IL',
             name: 'Illinois',
             region: 'Midwest',
             x: 3,
             y: 6,
-            value: 585415
+            value: 5082.2
         }, {
             'hc-a2': 'IN',
             name: 'Indiana',
             region: 'Midwest',
             x: 3,
             y: 7,
-            value: 263533
+            value: 1376.82
         }, {
             'hc-a2': 'IA',
             name: 'Iowa',
