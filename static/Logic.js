@@ -30,12 +30,12 @@ Highcharts.chart('container', {
             from: 0,
             to: 0,
             color: '#ff6666',
-            name: '< 100'
+            name: 'No Data'
         }, {
             from: 1,
             to: 1000,
             color: '#ffb3b3',
-            name: '10-1000'
+            name: '1-1000'
         }, {
             from: 1000,
             to: 5000,
